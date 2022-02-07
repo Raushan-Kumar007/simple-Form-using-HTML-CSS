@@ -1,9 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Learning HTML!</title>
-</head>
-<body>
-    <p>I Love To Learn HTML!</p>
-</body>
-</html>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Learning HTML!</title>
+ </head>
+ <style>
+     body{
+         background-color: orange;
+         
+     }
+     .f1{
+       margin:  45px;
+       padding: 45px;
+       background-color: rgb(0, 255, 234);
+       height: 520px;
+        border-radius: 72px;
+     }
+     h1{
+         text-align: center;
+     }
+     h4{
+         text-align: center;
+     }
+     
+ </style>
+ <body>
+      <div class="f1">
+          <h1>Registration For Placement</h1>
+          <h4>Lovely Professional University Punjab</h4>
+          
+        <form action="">
+           <p>  <label for="First Name">First Name</label>
+            <input type="text" placeholder="eg.john">
+            <label for="Middle Name">Middle Name</label>
+            <input type="text" placeholder="eg.john">
+            <label for="Last Name">Last Name</label>
+            <input type="text" placeholder="eg.john">
+        </p>
+        <p>   <label for="Gender">Gender</label>
+             <input type="radio" name="Gender" id="Male">
+             <label for="Male">Male</label>
+             <input type="radio" name="Gender" id="Female">
+             <label for="Male">Female</label>
+        </p>
+        <p>   <label for="Gender">Have you appeared for Internship</label>
+            <input type="radio" name="Gender" id="Male">
+            <label for="Male">Yes</label>
+            <input type="radio" name="Gender" id="Female">
+            <label for="Male">No</label>
+       </p>
+         <p>
+             <label for="Email">Email</label>
+             <input type="text" placeholder="@gmail.com">
+         </p>
+         <p>
+             <label for="Tel">Mobile Number</label>
+             <input type="tel" placeholder="1234567890">
+         </p>
+         <p> 
+             <label for="Tel">Reg Number</label>
+             <input type="tel" placeholder="12019050">
+         </p>
+         <p>
+             <label for="Date of Birth">Date of Birth</label>
+             <input type="date">
+         </p>
+         <p>
+             <label for="Courses">Select your Courses</label>
+             <select name="Select your Courses" id="Select your Courses">
+                 <option value="Btech">Btech</option>
+                 <option value="Mtech">Mtech</option>
+                 <option value="BBA">BBA</option>
+                 <option value="MBA">MBA</option>
+                 <option value="BA">BA</option>
+                 <option value="BSc">BSc</option>
+                 <option value="MSc">MSc</option>
+             </select>
+         </p>
+         <p>
+            <label for="Year of Passing">Year of Passing</label>
+            <select name=" Year of Passing" id=" Year of Passing">
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                 
+            </select>
+        </p>
+         <p>
+             <label for="file-select">Upload your recent CV/Resume</label>
+             <input type="file" name="Upload your recent CV/Resume" id="File-selected">
+         </p>
+         <p>
+             <input type="Submit">
+             <input type="Reset">
+         </p>
+        </form>
+      </div>
+ </body>
+ </html>
