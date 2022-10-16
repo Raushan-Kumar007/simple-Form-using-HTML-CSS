@@ -8,12 +8,16 @@
     <link rel="stylesheet" href="index.css">
  </head>
  <body>
-   <form >
+   <form id="form-body">
      <h1>Log in</h1>
-     <label for="Username">Username</label>
-     <input type="text" placeholder="me@example.com">
-     <label for="Password">Password</label>
-     <input type="text" placeholder="eg.*********">
+     <label for="Username" >Username*</label>
+     <input type="text" class="input" placeholder="me@example.com*">
+     <label for="Password">Password*</label>
+     <input type="text" class="input" placeholder="password*">
+     <span id="conditionbox">
+       <input type="checkbox" name="terms" id="terms_check">
+       <label id="terms" for="condition">Terms and Conditions.*</label>
+     </span>
      <button class="submitbtn">Login</button>
    </form>
  </body>
